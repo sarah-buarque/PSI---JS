@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Test Arena</title>
+</head>
+<body>
+
+    <script>
+        const ice = "Bem vindos a minha humilde choupana";
+        console.log(ice);
+    </script>
+
+    <p id="t1"></p>
+
+    <script>
+        document.getElementById("t1").innerHTML = "teste";
+        document.getElementById("t1").style.fontSize = "25px"
+        document.getElementById("t1").style.color = "white"
+        document.getElementById("t1").style.backgroundColor = "black"
+    </script>
+
+    <div class="bg-success p-2 text-white"> Background verde</div>
+    <button type="button" class="btn btn-primary">Base class</button>
+            
+    <style>
+        body{
+            background-image: url(https://capricho.abril.com.br/wp-content/uploads/2025/01/MONTAGEM-LIVRE-THUMB_MATERIAS_ORIGINAL-2025-01-09T170021.314.jpg?crop=1&resize=1212,909);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+
+    <script>
+        const imgElement = document.createElement('img');
+
+        imgElement.src = 'https://imagenes.elpais.com/resizer/v2/HP6T27JFRI76GNSY6GSNFIX5BM.jpg?auth=a894f4797e0881c1434a7d042d68748a9d54286f6afb26a49a6deb8d70dc6582&width=414'
+
+        imgElement.alt = 'Descrição';
+
+        imgElement.width = 400;
+        imgElement.height = 400;
+
+        document.body.appendChild(imgElement);
+        
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+</body>
+</html>
